@@ -1,0 +1,61 @@
+body {
+    margin:0;
+}
+.top-header {
+    background-color:black;
+}
+.container {
+    max-width:12200px;
+    margin:0 auto;
+    padding: 20px;
+}
+.flex-container {
+    display:flex;
+
+}
+.container.flex-container {
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+}
+.contact-header ul li a,
+.social-header ul li a {
+    color: #ffff;
+    text-decoration: none;
+    padding-right:20px;
+}
+
+.contact-header ul il a {
+    padding-right:20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#ccc;
+    padding-left:20px;
+}
+
+.logo {
+    padding: 10px 0;
+}
+
+.logo img {
+    display: block;
+    padding-left:35px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: coral;
+    transition: background-color 1s ease-in-out;
+    font-size: 24px;
+    border-radius: 24px;
+
+}
+
+button:hover {
+    background-color: blue;
+}
+
