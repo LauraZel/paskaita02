@@ -1,0 +1,275 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.site-header {
+    background-color: #252323;
+    width: 100%;
+    height: 50px;
+    top: 0;
+}
+
+.header-container {
+    margin: 0 auto;
+    padding: 0;
+    height: 59px;
+    max-width: 1366px;
+
+    
+}
+.site-header .header-container{
+    justify-content: space-between;
+    align-items:center; 
+  
+}
+
+.flex-container {
+    display: flex;
+}
+
+.header-nav li {
+   list-style: none;
+   padding: 15px;
+}
+
+.logo img {
+    height: 41px;
+}
+
+/*Content navigation*/
+
+.content-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 85px;
+    background-color: #eee;
+    width: 100%;
+    position: fixed;
+}
+
+.content-nav-container li {
+    list-style: none;  
+}
+
+.content-nav-container a {
+    color: grey;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 15px; 
+}
+   
+
+.content-nav-container a:hover, .content-nav-container a:active{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.search-bar {
+    border-radius: 5px;
+    border-color: #eee;
+
+}
+
+/*Center*/
+
+.center {
+    background-image: url('../image/tept1.jpg');
+    padding: 0 auto;
+}
+
+button {
+    height: 44px;
+    width: 44px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:#eee ;
+}
+
+.center-container {
+    background-image: url("");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 453px;
+    color: #fff;
+}
+
+h1 {
+    height: 40px;
+    margin: 0;
+}
+
+.center-container p {
+    font-size: 15px;
+}
+
+/* SERVICES*/
+
+.section-heading {
+    text-align: center;
+    color: grey;
+}
+
+.section-heading h2 {
+    font-size: 25px;
+    text-transform: uppercase; 
+    max-width: 1000px; 
+    margin:20px auto;
+    font-weight: 100;
+}
+
+.section-heading p {
+    font-size: 15px;
+    margin: 30px auto;
+}
+
+.service {
+    text-align: center;
+    color: grey;
+    max-width: 300px;
+    margin: 50px auto 0;
+}
+
+.service h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.service p {
+    font-size: 12px;
+}
+
+/*GALERY*/
+
+.galery {
+    margin: 0 auto;
+}
+
+.gallery-container{
+    background-color:#eee;
+    padding: 20px 40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.col{
+	margin-top: 20px;
+}
+
+/*ABOUT*/
+
+.about {
+    color: grey;
+   text-align: center;
+}
+
+.about .container {
+    padding: 30px auto;
+}
+
+.about .container p {
+   padding: 0 40px;
+    line-height: 1.625em;;
+}
+
+/*CONTACT*/
+
+.contact {
+    background-color: #0a0e25;
+    color: #fff;
+    text-align: center;
+}
+
+.contact .container {
+    padding: 10px;
+}
+
+.contact .section p {
+    max-width: 780px;
+}
+
+.contact .section-content {
+    width: 80%;
+    max-width: 860px;
+    margin: 80px auto;
+}
+
+.contact .section-content .contact-form .input-row {
+    margin-bottom: 30px;
+}
+
+.contact .section-content .contact-form .input-row input {
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    color: grey;
+    background-color: #eee;
+    width: calc(49% - 18px);
+}
+
+.contact .section-content .contact-form .input-row input::placeholder,
+.contact .section-content .contact-form textarea::placeholder {
+    color: grey;
+}
+
+.contact .section-content .contact-form .input-row input:first-child {
+   margin-right: 16px;
+}
+
+ .contact .section-content .contact-form textarea {
+    border: none;
+    width: 100%;
+    background-color: #eee;
+    color: grey;
+    padding: 5px;
+    border-radius: 5px;
+ }
+
+ .contact .section-content .contact-form .btn-form {
+    background-color: #eee;
+    border-color:#eee;
+    color: grey;
+    padding: 10px;
+    border-radius: 5px;
+ }
+
+ .contact .btn {
+    margin: 60px auto 0;
+    width: 300px;
+    display: block;
+ }
+
+ /* FOOTER */
+
+ footer {
+  color: grey;
+ }
+
+ footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    font-size: 16px;
+   padding: 0 40px;
+  
+ } footer .container a {
+    text-decoration: none;
+    color: grey;
+ }
+
+
+
+
